@@ -61,6 +61,8 @@ const scrollRight = () => {
   }
 };
 
+
+
 const LatestMasterpieces = () => {
   return (
     <section className="relative w-full bg-gray-100 md:pl-5 lg:pl-[6rem]">
