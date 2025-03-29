@@ -12,7 +12,7 @@ const FeaturedArt = () => {
     <>
       <TopSection />
       <section className="w-full mb-15">
-        <div className="max-w-[1440px] mx-auto px-5 flex gap-5 overflow-x-auto md:flex md:justify-evenly md:items-center md:overflow-hidden hide-scrollbar">
+        <div className="max-w-[1440px] mx-auto px-5 flex gap-5 overflow-x-auto md:flex md:justify-evenly md:items-center hide-scrollbar">
           
           {/* Card 1 */}
           <div className="relative flex-shrink-0 w-[236px] min-w-[236px]">
@@ -73,10 +73,7 @@ const FeaturedArt = () => {
               alt="Vase Family"
               className="h-[354px] object-center object-cover rounded w-full"
             />
-            {/* <div className="absolute top-0 p-5">
-              <Typography variant="p" className="text-white">Decor</Typography>
-              <Typography variant="h4" className="text-white font-bold">Vase Family</Typography>
-            </div> */}
+          
           </div>
         </div>
       </section>

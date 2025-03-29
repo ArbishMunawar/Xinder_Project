@@ -10,6 +10,8 @@ import ArtVenu from "../../../assets/icons/ArtVenu";
 import Button from "../../Common/Button";
 import FeaturedArt from "../../Section/FeaturedArt";
 import LatestMasterpieces from "../../Section/LatestMasterpieces";
+import ExpandingServices from "../../Section/ExpandingServices";
+import BestSolutions from "../../Section/BestSolutions";
 
 const HomePage = () => {
   return (
@@ -118,6 +120,8 @@ const HomePage = () => {
 
       <FeaturedArt/>
       <LatestMasterpieces/>
+      <ExpandingServices/>
+      <BestSolutions/>
     </>
   );
 };
